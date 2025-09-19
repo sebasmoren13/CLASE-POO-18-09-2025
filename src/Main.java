@@ -3,7 +3,7 @@ import java.sql.SQLOutput;
 public class Main {
     public static void main(String[] args) {
 
-        //CONSTRUCTOR VACIO
+      /*  //CONSTRUCTOR VACIO
 
         Animal a1 = new Animal();
 
@@ -36,6 +36,22 @@ public class Main {
 
 
 */
+
+
+
+      //CONSTRUCTOR VACIO
+
+        Cuenta a1 = new Cuenta();
+
+        a1.setNumero(1328);
+        a1.setCedula(1013263136);
+        a1.setSaldo(0);
+
+        System.out.println(a1.toString());
+        System.out.println(a1.ingresarDinero(a1.getSaldo()));
+        System.out.println(a1.toString());
+
+
 
     }
 
